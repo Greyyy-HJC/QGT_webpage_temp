@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QGT Physics Research Collaboration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header style="background-image: url('placeholder-image.jpg');">
+        <h1>QGT Physics Research Collaboration</h1>
+    </header>
+
+    <main>
+        <section id="left-column">
+            <!-- Information Exchange: Files -->
+            <section id="files">
+                <h2>Files</h2>
+                <p>File manager placeholder</p>
+            </section>
+
+            <!-- Information Exchange: Notes -->
+            <section id="notes">
+                <h2>Notes</h2>
+                <form id="noteForm">
+                    <textarea placeholder="Type your note here..." rows="4" required></textarea>
+                    <button type="submit">Post Note</button>
+                </form>
+                <div id="notePosts"></div>
+                <button id="expandNotes">Expand Notes</button>
+            </section>
+
+            <!-- Q&A Section -->
+            <section id="qa-section">
+                <h2>Q&A Section</h2>
+                <p>Q&A placeholder</p>
+            </section>
+        </section>
+
+        <!-- TODO List -->
+        <section id="todo-list">
+            <h2>TODO List</h2>
+            <form id="todoForm">
+                <input type="text" placeholder="Add a new task..." required>
+                <button type="submit">Add Task</button>
+            </form>
+            <ul id="tasks"></ul>
+        </section>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
